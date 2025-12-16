@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Section Example</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <style>
+    .banner{
+     
+      background-image: url("banner.jpg");
+      height:400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+      
+    }
+    .type{
+       padding: 50px;
+       color: white;
+       text-align: center; 
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       color: white;
+       
+    }
+    .headersubline{
+      font-size: 14px;
+      font-weight: 50%;
+    }
+    .button{
+      
+      width: 100px;
+      height: 40px;
+      background-color: yellow;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+    }
+   
+    h1{
+      color: white;    
+    }
+    .fotter{
+      background-color: rgb(189, 246, 189);
+    }
+    
+  
+  </style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar scroll</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Link</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+  </nav>
+  <div class="banner">
+    <div class="type">
+    <h1> Let Start Your New Carrier</h1>
+    <br>
+    <p class="headersubline">
+      It is best part of your life you can do your self and thing best way to change your<br>
+      life It is best part of your life you can do your self and.<br>
+      thing best way to change your life It is best part of your life you can do your self and thing best way to<br>
+      change your life It is best part of your life you can do your self and thing best way to change your life.<br>
+    </p>
+    <button type="button" class="btn btn-primary btn-lg">Learn More</button>
+    </div> 
+  </div><br><br>
+ <div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="mattress.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="mattress.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="mattress.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-body-secondary">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+<div class="fotter">
+<footer class="text- white pt-5 pb-4">
+    <div class="container text-center text-md-left">
+        <div class="row">
+
+            <div class="col-md-3">
+                <h5 class="text-uppercase font-weight-bold">Shop</h5>
+                <p>Quality products with best service.</p>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Products</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Mattress</a></li>
+                    <li><a href="#" class="text-dark">Furniture</a></li>
+                    <li><a href="#" class="text-dark">Interiors</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Customer Support</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-dark">Order Tracking</a></li>
+                    <li><a href="#" class="text-dark">Exchange & Return</a></li>
+                    <li><a href="#" class="text-dark">Warranty</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3">
+                <h5>Contact</h5>
+                <p>📞 +91 9876543210</p>
+                <p>📧 support@example.com</p>
+            </div>
+
+        </div>
+    </div>
+</footer>
+</div>
+
+</html>
